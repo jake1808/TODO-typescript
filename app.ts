@@ -73,3 +73,18 @@
     // console.log(counter);
 
 /*------------------------------------------------------------------------*/ 
+
+//4. FOR... OF LOOPS
+
+// var array=["pick up drycleaning", "Clean batcave", "Save Gotham"];
+
+// //for in loops only allows you to grab the index of the array
+// for (var index in array){
+//     var value = array[index];
+//     console.log(`${index}: ${value}`);
+// }
+
+// //for of loops allow you to grab the value in the array
+// for(var value of array){
+//     console.log(`${value}`);
+// }
