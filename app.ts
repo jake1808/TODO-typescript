@@ -88,3 +88,43 @@
 // for(var value of array){
 //     console.log(`${value}`);
 // }
+
+/*------------------------------------------------------------------------*/ 
+
+// 5. LAMBDAS
+
+var container = document.getElementById('container');
+
+// function Counter(el){
+//     this.count = 0;
+
+//     el.innerHTML = this.count;
+
+//     //Without this reference to this you the browser will mistaken your counter variable
+//     // thats in the scope of the counter function for a global counter function.
+//     let _this=this;
+    
+//     el.addEventListener('click',
+//         function (){
+//             _this.count += 1;
+//             el.innerHTML = _this.count;
+//         }
+//     )
+// }
+
+// or you can use a lambda function also known as an arrow function
+
+// function Counter(el){
+//     this.count = 0;
+
+//     el.innerHTML = this.count
+
+//     el.addEventListener('click',
+//     //lambda
+//     ()=>{
+//         this.count += 1;
+//         el.innerHTML = this.count;
+//     })
+// }
+
+// new Counter(container);
