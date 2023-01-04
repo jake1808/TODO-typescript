@@ -12,12 +12,13 @@
 //     let current = initial;
 
 //     while (current> final) {
+//         console.log(current);
 //         container.innerHTML = current;
 //         current -= interval;
 //     }
 // }
 
-// countDown(10);
+// countDown(20);
 
 /*------------------------------------------------------------------------*/ 
 
@@ -33,3 +34,10 @@ let todo = {
     name:'pick up drycleaning',
     completed: true
 }
+
+container.innerHTML = `
+<div todo=${todo.id} class="list-group-item">
+    <i class="${todo.completed?"":"hidden"} text-success glyphicon glyphicon-ok"></i>
+    <span class="name">${todo.name}</span>
+</div>
+`

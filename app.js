@@ -7,11 +7,12 @@
 // function countDown(initial, final=0, interval=1){
 //     let current = initial;
 //     while (current> final) {
+//         console.log(current);
 //         container.innerHTML = current;
 //         current -= interval;
 //     }
 // }
-// countDown(10);
+// countDown(20);
 /*------------------------------------------------------------------------*/
 //2.TEMPLATE STRINGS
 // Template strings allows you to construct a string
@@ -22,3 +23,4 @@ var todo = {
     name: 'pick up drycleaning',
     completed: true
 };
+container.innerHTML = "\n<div todo=".concat(todo.id, " class=\"list-group-item\">\n    <i class=\"").concat(todo.completed ? "" : "hidden", " text-success glyphicon glyphicon-ok\"></i>\n    <span class=\"name\">").concat(todo.name, "</span>\n</div>\n");
