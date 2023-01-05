@@ -1,6 +1,5 @@
-namespace DataAccess{
-    import Model = TodoApp.Model
-    import Todo = Model.Todo
+import { Todo } from "./model";
+
 
     let _lastId: number = 0;
 
@@ -45,5 +44,4 @@ class TodoService implements ITodoService{
         var clone = JSON.stringify(this.todos);
         return JSON.parse(clone);
     }
-}
 }
