@@ -64,7 +64,7 @@
 // }
 /*------------------------------------------------------------------------*/
 // 5. LAMBDAS
-var container = document.getElementById('container');
+// var container = document.getElementById('container');
 // function Counter(el){
 //     this.count = 0;
 //     el.innerHTML = this.count;
@@ -90,3 +90,23 @@ var container = document.getElementById('container');
 //     })
 // }
 // new Counter(container);
+/*------------------------------------------------------------------------*/
+// 6. DESTRUCTING
+// This allows to assign multiple variables from an array
+// var array = [123, "pick up drycleaning", false];
+// var [id, title, completed] = array;
+// console.log(id, title, completed);
+// var a=1;
+// var b=5;
+// [a,b]=[b,a]
+// console.log(a, b)
+// // destructuring a object requires the variables to have the same name as the properties in the object
+// // they can be put in any order as long as the names match
+// //  you can change the name of the variable by using :
+// var todo ={
+//     id:123,
+//     title: "Pick up drycleaning",
+//     completed: false
+// }
+// var {id, title, completed:isCompleted}=todo;
+// console.log(id, title, isCompleted);
