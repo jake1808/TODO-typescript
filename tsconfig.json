@@ -1,3 +1,3 @@
 {
-    "compilerOptions": {"target": "ES5", "module": "System"}
+    "compilerOptions": {"target": "ES5", "module": "CommonJS"}
 }

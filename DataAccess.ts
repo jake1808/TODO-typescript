@@ -15,7 +15,7 @@ import { Todo } from "./model";
     }
 
 
-class TodoService implements ITodoService{
+export class TodoService implements ITodoService{
 
     constructor(private todos:Todo[]){
     }

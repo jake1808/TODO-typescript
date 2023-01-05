@@ -1,5 +1,6 @@
 "use strict";
 exports.__esModule = true;
+exports.TodoService = void 0;
 var _lastId = 0;
 function generateNewId() {
     return _lastId += 1;
@@ -31,3 +32,4 @@ var TodoService = /** @class */ (function () {
     };
     return TodoService;
 }());
+exports.TodoService = TodoService;
